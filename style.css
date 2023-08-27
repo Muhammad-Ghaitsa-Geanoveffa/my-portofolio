@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+html{
+    scroll-behavior: smooth ;
+}
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+body {
+    background-color: #000000 ;
+    color: #ededed;
+}
+/* FORMAT HTML */
+
+
+
+
+.header {   
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover {
+    color: #00abf0;
+}
+/* NAVIGATION BAR */
+
+
+
+
+.home {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    background: url('jawir.png');
+}
+.home-content {
+    max-width: 570px;
+}
+.home-content h3{
+    color: #ffd000;
+    font-size: 25px;
+}
+/* HOME */
+
+
+
+
+.About-Me-Title {
+    color: #ffd000;
+}
+.About-Me-Table {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/* ABOUT ME */
+
+
+
+.My-Project-Table {
+    border-color:#ffd000;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.My-Project-Data {
+    display: flex;
+    width: fit-content;
+    font-size: 100%;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.My-Project-Desk {
+    font-weight:500;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+/* MY PROJECT */
+
+
+
+
+.Gallery-Title {
+    color: #ffd000;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px;
+    grid-gap: 10px;
+}
+img {
+    object-fit: cover;
+}
+.grid > article {
+    color: #000000;
+    border-radius: 20px;
+    text-align: center;
+    background: whitesmoke;
+    border: 5px solid #d4d4d4;
+}
+.grid > article img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.grid > article:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*  */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(1,4fr);
+    margin: 40px;
+    align-content: center;
+}
+.grid2 > article {
+    color: #000000;
+    border-radius: 20px;
+    background: whitesmoke;
+    border: 5px solid #d4d4d4;
+}
+.grid2 > article video {
+    border-radius: 20px;
+}
+.grid2 > article:hover {
+    transform: scale(0.9);
+    transition: 1s;
+}
+/* GALLERY */
+
+
+
+
+.Contact {
+    color: #000000;
+    border-color:#ffd000;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
